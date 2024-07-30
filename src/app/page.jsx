@@ -1,5 +1,10 @@
+import Header from "@/components/Header";
 import React from "react";
 
-export default function page() {
-  return <h1 class="text-3xl font-bold underline">Hello world!</h1>;
+export default function HeaderPage() {
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 }
